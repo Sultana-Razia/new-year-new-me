@@ -35,3 +35,50 @@
     border-radius: 5px;
     margin-left: 895px;
 }
+
+/* Main Section Styles */
+.previous-year-section {
+    width: 1072px;
+    height: 724px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.previous-year-title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.previous-year-text {
+    margin-top: 200px;
+    margin-left: 87px;
+}
+
+.previous-year-description {
+    font-family: 'Work Sans';
+    font-style: normal;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+
+ul {
+    padding-left: 0;
+}
+
+ul li {
+    line-height: 26px;
+    list-style: none;
+
+}
+
+ul li::before {
+    content: '✓';
+    color: #16D887;
+    width: 1em;
+    margin-right: 5px;
+}
