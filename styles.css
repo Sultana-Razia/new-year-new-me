@@ -1,14 +1,17 @@
+* {
+    font-family: 'Work Sans';
+    font-style: normal;
+}
+
 .header {
     background-image: url('images/banner/banner3.png');
     background-repeat: no-repeat;
     padding: 200px 230px;
 }
 
-.header-text-area {}
+/* .header-text-area {} */
 
 .header-title {
-    font-family: 'Work Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 65px;
     /* line-height: 76px; */
@@ -17,16 +20,12 @@
 }
 
 .header-description {
-    font-family: 'Work Sans';
-    font-style: normal;
     line-height: 26px;
     text-align: right;
     color: #FFFFFF;
 }
 
 .btn-primary {
-    font-family: 'Work Sans';
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     color: #005FAC;
@@ -45,8 +44,6 @@
 }
 
 .previous-year-title {
-    font-family: 'Work Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 40px;
     color: #151414;
@@ -58,8 +55,6 @@
 }
 
 .previous-year-description {
-    font-family: 'Work Sans';
-    font-style: normal;
     line-height: 26px;
     font-weight: 400;
     font-size: 16px;
@@ -81,4 +76,41 @@ ul li::before {
     color: #16D887;
     width: 1em;
     margin-right: 5px;
+}
+
+/* Plans Section Styles */
+.plans-section {
+    margin: 130px 230px;
+    text-align: center;
+    width: 1141px;
+    height: 202.96px;
+}
+
+
+.plans-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 50px;
+}
+
+.plan-area {
+    display: flex;
+}
+
+.plans {
+    padding-right: 80px;
+    /* line-height: 35px; */
+}
+
+.plans h3 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+
+.plans p {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
 }
