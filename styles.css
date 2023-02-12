@@ -151,3 +151,61 @@ ul li::before {
     color: #005FAC;
     margin-top: 0;
 }
+
+/* Footer Area Styles */
+.footer {
+    width: 1600px;
+    height: 577px;
+    background: #151414;
+    display: flex;
+}
+
+.footer-contact-area {
+    padding: 130px 230px;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+
+.footer-description,
+.footer-contact {
+    color: #FFFFFF;
+}
+
+.footer-icon {
+    width: 47px;
+}
+
+.subscribe-area {
+    padding: 130px 230px;
+}
+
+.subscribe-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.footer-input {
+    width: 325px;
+    height: 64px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #F3F3F3;
+}
+
+.subscribe-btn {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 170.11px;
+    height: 64px;
+    background: #005FAC;
+    border-radius: 8px;
+    border: none;
+}
